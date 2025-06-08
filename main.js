@@ -7,7 +7,6 @@ function addItem() {
         name: itemName,
         checked: false
     }
-
     items.push(item)
 
      document.querySelector("#item").value = ""
